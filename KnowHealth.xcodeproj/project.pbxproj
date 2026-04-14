@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001FCA64FF41F83BC0AF41EE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 686227F7F6038ECA29BE439F /* Kingfisher */; };
+		0322B50A54451860FF0A82D4 /* KnowHealthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D12B831F88D5A6A5DE651F3 /* KnowHealthApp.swift */; };
+		1C2530EA2CE4845DF309D04C /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15DB58AF20E5E4D31FEC259 /* Services.swift */; };
+		2050EAC9B16E48A41672D59E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D38B82E97E39525F068BB7 /* Theme.swift */; };
+		2889AF0374D2D4BD664340DA /* ExpertViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004EA1F9BF0AA6F12A18FB56 /* ExpertViews.swift */; };
+		3C9E58B70EA340FEB2C05248 /* ConsultationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF709187B708397AF345C7A /* ConsultationModels.swift */; };
+		4A3197DD4CAF6AB10466D299 /* ConsultationLobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E61FFAB996645340C600BC /* ConsultationLobbyView.swift */; };
+		4A8611C7898971983A604C44 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167051C5929719235138C88 /* HomeView.swift */; };
+		54F11A2E85C4E35315D51D90 /* CaseViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D094F7888A27366CFE30BB /* CaseViews.swift */; };
+		83FDAA26F3B312CF85701722 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8948CA9BC74CC7C26A7F4CA6 /* Alamofire */; };
+		8B910CA8A7DD1C1A8B0D65DB /* ConsultationRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B621752BA6F0EDA28C43A86 /* ConsultationRoomView.swift */; };
+		99C0157FD7BDF1BB5BB7B983 /* AgentEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C057E2D4BAD0F997B9AE13D8 /* AgentEngine.swift */; };
+		9FDB815CE60BD882E7BF0F57 /* ProfileAndChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9F7A6BB5D5B35A4BF9664B /* ProfileAndChat.swift */; };
+		D8F39BAFEFC53EABAF1A0328 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9B9A234497878E0228AB78 /* Models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		004EA1F9BF0AA6F12A18FB56 /* ExpertViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertViews.swift; sourceTree = "<group>"; };
+		1167051C5929719235138C88 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2F9B9A234497878E0228AB78 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		37E61FFAB996645340C600BC /* ConsultationLobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultationLobbyView.swift; sourceTree = "<group>"; };
+		4B621752BA6F0EDA28C43A86 /* ConsultationRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultationRoomView.swift; sourceTree = "<group>"; };
+		5AF709187B708397AF345C7A /* ConsultationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultationModels.swift; sourceTree = "<group>"; };
+		5F9F7A6BB5D5B35A4BF9664B /* ProfileAndChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndChat.swift; sourceTree = "<group>"; };
+		76D094F7888A27366CFE30BB /* CaseViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseViews.swift; sourceTree = "<group>"; };
+		93D38B82E97E39525F068BB7 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9D12B831F88D5A6A5DE651F3 /* KnowHealthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowHealthApp.swift; sourceTree = "<group>"; };
+		C057E2D4BAD0F997B9AE13D8 /* AgentEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentEngine.swift; sourceTree = "<group>"; };
+		C15DB58AF20E5E4D31FEC259 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		CD816EAB1F7F7D6F0609C65F /* KnowHealth.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = KnowHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE0BA10335AAB640B510807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		425270B5D9C785C800905A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83FDAA26F3B312CF85701722 /* Alamofire in Frameworks */,
+				001FCA64FF41F83BC0AF41EE /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D918CB078E7527D84F83A68 = {
+			isa = PBXGroup;
+			children = (
+				8AA20CEB4B982091F995F24E /* KnowHealth */,
+				9A1081F152CF6BF0E528C343 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32EC7F4285CEFDE67E89FD19 /* Agents */ = {
+			isa = PBXGroup;
+			children = (
+				C057E2D4BAD0F997B9AE13D8 /* AgentEngine.swift */,
+			);
+			path = Agents;
+			sourceTree = "<group>";
+		};
+		36F25E5CAC0D9AB104169DA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A9EF0BF20D22BE29D122743 /* Cases */,
+				8152BD9C6E2FFAF8A0B6B787 /* Consultation */,
+				D5F7E56B3C2FF432FCD2206D /* Experts */,
+				9C38B911F5CA504B07B4B73D /* Home */,
+				60EB071D9C6C2B2FFF601333 /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A9EF0BF20D22BE29D122743 /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				76D094F7888A27366CFE30BB /* CaseViews.swift */,
+			);
+			path = Cases;
+			sourceTree = "<group>";
+		};
+		60EB071D9C6C2B2FFF601333 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5F9F7A6BB5D5B35A4BF9664B /* ProfileAndChat.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8152BD9C6E2FFAF8A0B6B787 /* Consultation */ = {
+			isa = PBXGroup;
+			children = (
+				37E61FFAB996645340C600BC /* ConsultationLobbyView.swift */,
+				4B621752BA6F0EDA28C43A86 /* ConsultationRoomView.swift */,
+			);
+			path = Consultation;
+			sourceTree = "<group>";
+		};
+		8AA20CEB4B982091F995F24E /* KnowHealth */ = {
+			isa = PBXGroup;
+			children = (
+				32EC7F4285CEFDE67E89FD19 /* Agents */,
+				9A015618ACAD0D4E2C16BADF /* App */,
+				BA0973E814FD6B55170C6253 /* Models */,
+				CAC7BBB825C4D8CB64B8770E /* Services */,
+				9826921C62E396C07DC02E47 /* Theme */,
+				36F25E5CAC0D9AB104169DA1 /* Views */,
+			);
+			name = KnowHealth;
+			path = Sources/KnowHealth;
+			sourceTree = "<group>";
+		};
+		9826921C62E396C07DC02E47 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				93D38B82E97E39525F068BB7 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		9A015618ACAD0D4E2C16BADF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DEE0BA10335AAB640B510807 /* Info.plist */,
+				9D12B831F88D5A6A5DE651F3 /* KnowHealthApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9A1081F152CF6BF0E528C343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD816EAB1F7F7D6F0609C65F /* KnowHealth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C38B911F5CA504B07B4B73D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1167051C5929719235138C88 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BA0973E814FD6B55170C6253 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5AF709187B708397AF345C7A /* ConsultationModels.swift */,
+				2F9B9A234497878E0228AB78 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CAC7BBB825C4D8CB64B8770E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C15DB58AF20E5E4D31FEC259 /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5F7E56B3C2FF432FCD2206D /* Experts */ = {
+			isa = PBXGroup;
+			children = (
+				004EA1F9BF0AA6F12A18FB56 /* ExpertViews.swift */,
+			);
+			path = Experts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40EA772AD0EBDFCF08169A07 /* KnowHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 337A26223600B02FD8C4D0FE /* Build configuration list for PBXNativeTarget "KnowHealth" */;
+			buildPhases = (
+				EC3C6C4B8CB55A3C02C7FCB3 /* Sources */,
+				425270B5D9C785C800905A99 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnowHealth;
+			packageProductDependencies = (
+				8948CA9BC74CC7C26A7F4CA6 /* Alamofire */,
+				686227F7F6038ECA29BE439F /* Kingfisher */,
+			);
+			productName = KnowHealth;
+			productReference = CD816EAB1F7F7D6F0609C65F /* KnowHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C1C24788EC535344880FE4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					40EA772AD0EBDFCF08169A07 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = CEAF0D51EF6D15760B783A9D /* Build configuration list for PBXProject "KnowHealth" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2D918CB078E7527D84F83A68;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DC64F629DC0D6D1BF51212AA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				27DB7B4FA286433DF52B2A41 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9A1081F152CF6BF0E528C343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40EA772AD0EBDFCF08169A07 /* KnowHealth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC3C6C4B8CB55A3C02C7FCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99C0157FD7BDF1BB5BB7B983 /* AgentEngine.swift in Sources */,
+				54F11A2E85C4E35315D51D90 /* CaseViews.swift in Sources */,
+				4A3197DD4CAF6AB10466D299 /* ConsultationLobbyView.swift in Sources */,
+				3C9E58B70EA340FEB2C05248 /* ConsultationModels.swift in Sources */,
+				8B910CA8A7DD1C1A8B0D65DB /* ConsultationRoomView.swift in Sources */,
+				2889AF0374D2D4BD664340DA /* ExpertViews.swift in Sources */,
+				4A8611C7898971983A604C44 /* HomeView.swift in Sources */,
+				0322B50A54451860FF0A82D4 /* KnowHealthApp.swift in Sources */,
+				D8F39BAFEFC53EABAF1A0328 /* Models.swift in Sources */,
+				9FDB815CE60BD882E7BF0F57 /* ProfileAndChat.swift in Sources */,
+				1C2530EA2CE4845DF309D04C /* Services.swift in Sources */,
+				2050EAC9B16E48A41672D59E /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		498A8DF28772A0C0B714D81F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		71EDEB75CC11871E1009069D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sources/KnowHealth/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.knowhealth.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C95FDDC3EC66B04CEFBB1AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sources/KnowHealth/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.knowhealth.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6CA01A339B3B0D23AA89EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		337A26223600B02FD8C4D0FE /* Build configuration list for PBXNativeTarget "KnowHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71EDEB75CC11871E1009069D /* Debug */,
+				C95FDDC3EC66B04CEFBB1AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CEAF0D51EF6D15760B783A9D /* Build configuration list for PBXProject "KnowHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498A8DF28772A0C0B714D81F /* Debug */,
+				F6CA01A339B3B0D23AA89EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		27DB7B4FA286433DF52B2A41 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
+		DC64F629DC0D6D1BF51212AA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		686227F7F6038ECA29BE439F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27DB7B4FA286433DF52B2A41 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		8948CA9BC74CC7C26A7F4CA6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC64F629DC0D6D1BF51212AA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9C1C24788EC535344880FE4D /* Project object */;
+}
