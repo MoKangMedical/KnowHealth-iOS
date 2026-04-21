@@ -21,11 +21,13 @@
 		99C0157FD7BDF1BB5BB7B983 /* AgentEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C057E2D4BAD0F997B9AE13D8 /* AgentEngine.swift */; };
 		9FDB815CE60BD882E7BF0F57 /* ProfileAndChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9F7A6BB5D5B35A4BF9664B /* ProfileAndChat.swift */; };
 		D8F39BAFEFC53EABAF1A0328 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9B9A234497878E0228AB78 /* Models.swift */; };
+		F4962C08B035CA5CF19BBA3B /* PlatformCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2432636A3DFAF82DA5898DA4 /* PlatformCompat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		004EA1F9BF0AA6F12A18FB56 /* ExpertViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertViews.swift; sourceTree = "<group>"; };
 		1167051C5929719235138C88 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2432636A3DFAF82DA5898DA4 /* PlatformCompat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformCompat.swift; sourceTree = "<group>"; };
 		2F9B9A234497878E0228AB78 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		37E61FFAB996645340C600BC /* ConsultationLobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultationLobbyView.swift; sourceTree = "<group>"; };
 		4B621752BA6F0EDA28C43A86 /* ConsultationRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultationRoomView.swift; sourceTree = "<group>"; };
@@ -37,7 +39,6 @@
 		C057E2D4BAD0F997B9AE13D8 /* AgentEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgentEngine.swift; sourceTree = "<group>"; };
 		C15DB58AF20E5E4D31FEC259 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		CD816EAB1F7F7D6F0609C65F /* KnowHealth.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = KnowHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEE0BA10335AAB640B510807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +115,7 @@
 				BA0973E814FD6B55170C6253 /* Models */,
 				CAC7BBB825C4D8CB64B8770E /* Services */,
 				9826921C62E396C07DC02E47 /* Theme */,
+				BBAB247D2EBD636DA97C1FB8 /* Utilities */,
 				36F25E5CAC0D9AB104169DA1 /* Views */,
 			);
 			name = KnowHealth;
@@ -131,7 +133,6 @@
 		9A015618ACAD0D4E2C16BADF /* App */ = {
 			isa = PBXGroup;
 			children = (
-				DEE0BA10335AAB640B510807 /* Info.plist */,
 				9D12B831F88D5A6A5DE651F3 /* KnowHealthApp.swift */,
 			);
 			path = App;
@@ -160,6 +161,14 @@
 				2F9B9A234497878E0228AB78 /* Models.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BBAB247D2EBD636DA97C1FB8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2432636A3DFAF82DA5898DA4 /* PlatformCompat.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		CAC7BBB825C4D8CB64B8770E /* Services */ = {
@@ -252,6 +261,7 @@
 				4A8611C7898971983A604C44 /* HomeView.swift in Sources */,
 				0322B50A54451860FF0A82D4 /* KnowHealthApp.swift in Sources */,
 				D8F39BAFEFC53EABAF1A0328 /* Models.swift in Sources */,
+				F4962C08B035CA5CF19BBA3B /* PlatformCompat.swift in Sources */,
 				9FDB815CE60BD882E7BF0F57 /* ProfileAndChat.swift in Sources */,
 				1C2530EA2CE4845DF309D04C /* Services.swift in Sources */,
 				2050EAC9B16E48A41672D59E /* Theme.swift in Sources */,
@@ -319,7 +329,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -418,7 +428,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

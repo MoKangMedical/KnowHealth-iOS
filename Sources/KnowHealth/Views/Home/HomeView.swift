@@ -98,7 +98,9 @@ struct LoginView: View {
                                 .foregroundColor(KHTheme.Colors.textTertiary)
                             TextField("手机号码", text: $phone)
                                 .font(KHTheme.Typography.body())
-                                .keyboardType(.phonePad)
+                                #if os(iOS)
+                                    .keyboardType(.phonePad)
+                                #endif
                         }
                         .padding()
                         .background(.white)
@@ -255,18 +257,18 @@ struct HomeView: View {
             GridItem(.flexible()),
             GridItem(.flexible()),
         ], spacing: 16) {
-                    QuickAction(icon: "doc.badge.plus", title: "新建病例", color: .blue) {
-                        showNewCase = true
-                    }
-                    QuickAction(icon: "bubble.left.and.text.bubble.right", title: "讨论室", color: .purple) {
-                        appState.selectedTab = .cases
-                    }
-                    QuickAction(icon: "person.crop.circle.badge.checkmark", title: "找专家", color: .green) {
-                        appState.selectedTab = .experts
-                    }
-                    QuickAction(icon: "clock.arrow.circlepath", title: "AI助手", color: .orange) {
-                        showAIChat = true
-                    }
+            QuickAction(icon: "doc.badge.plus", title: "新建病例", color: .blue) {
+                showNewCase = true
+            }
+            QuickAction(icon: "bubble.left.and.text.bubble.right", title: "讨论室", color: .purple) {
+                appState.selectedTab = .cases
+            }
+            QuickAction(icon: "person.crop.circle.badge.checkmark", title: "找专家", color: .green) {
+                appState.selectedTab = .experts
+            }
+            QuickAction(icon: "clock.arrow.circlepath", title: "AI助手", color: .orange) {
+                showAIChat = true
+            }
         }
     }
     

@@ -116,7 +116,7 @@ enum RoomStatus: String {
 }
 
 /// 讨论室
-struct ConsultationRoom: Identifiable {
+struct ConsultationRoom: Identifiable, Hashable {
     let id: String
     let caseId: String
     let patientName: String
@@ -132,6 +132,14 @@ struct ConsultationRoom: Identifiable {
     
     /// 讨论主题
     let topics: [DiscussionTopic]
+    
+    static func == (lhs: ConsultationRoom, rhs: ConsultationRoom) -> Bool {
+        lhs.id == rhs.id
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
 }
 
 /// 讨论主题

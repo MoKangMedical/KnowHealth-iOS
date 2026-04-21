@@ -315,7 +315,7 @@ struct ConsultationMessageBubble: View {
             .background(backgroundForRole)
             .foregroundColor(foregroundForRole)
             .cornerRadius(KHTheme.Radius.lg)
-            .frame(maxWidth: UIScreen.main.bounds.width * 0.7, alignment: message.role == .patient ? .trailing : .leading)
+            .frame(maxWidth: 280, alignment: message.role == .patient ? .trailing : .leading)
     }
     
     private var specialMessageContent: some View {
@@ -334,7 +334,7 @@ struct ConsultationMessageBubble: View {
                 .foregroundColor(KHTheme.Colors.textPrimary)
         }
         .padding(12)
-        .frame(maxWidth: UIScreen.main.bounds.width * 0.8, alignment: .leading)
+        .frame(maxWidth: 320, alignment: .leading)
         .background(specialBackground)
         .cornerRadius(KHTheme.Radius.lg)
         .overlay(
